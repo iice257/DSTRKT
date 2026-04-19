@@ -1,16 +1,18 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#020202" />
     <title>DSTRKT</title>
+    <meta property="og:title" content="DSTRKT" />
+    <meta property="og:description" content="DSTRKT fashion essentials and seasonal collection." />
+    <meta property="og:image" content="/assets/social-preview.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -18,53 +20,34 @@
     <main class="page" id="main-content">
       <section class="hero">
         <header class="top-nav">
-          <a href="#" class="logo" aria-label="DSTRKT home">DSTRKT</a>
+          <a href="./index.html" class="logo" aria-label="DSTRKT home">DSTRKT</a>
           <nav class="primary-nav" aria-label="Main">
-            <a href="#">SHOP</a>
-            <a href="#">COLLECTION</a>
-            <a href="#">LOOKBOOK</a>
-            <a href="#">ABOUT</a>
+            <a href="./shop.html">SHOP</a>
+            <a href="./collection.html">COLLECTION</a>
+            <a href="./lookbook.html">LOOKBOOK</a>
+            <a href="./about.html">ABOUT</a>
           </nav>
           <nav class="utility-nav" aria-label="Utility">
-            <a href="#">KR &#9662;</a>
-            <a href="#">SEARCH</a>
-            <a href="#">ACCOUNT</a>
-            <a href="#">CART (0)</a>
+            <a href="./locale.html">NG &#9662;</a>
+            <a href="./search.html">SEARCH</a>
+            <a href="./account.html">ACCOUNT</a>
+            <a href="./cart.html">CART (0)</a>
           </nav>
         </header>
 
         <div class="hero-body">
           <div class="hero-copy motion-enter">
             <p class="eyebrow">THE LANGUAGE OF THE CITY, OUR WAY</p>
-            <h1>
-              SIMPLICITY<br />
-              IS STYLE
-            </h1>
-            <p class="description">
-              DSTRKT captures the rhythm and attitude of the city.
-              <br />
-              Define your day with effortless style.
-            </p>
+            <h1>SIMPLICITY<br />IS STYLE</h1>
+            <p class="description">DSTRKT captures the rhythm and attitude of the city.<br />Define your day with effortless style.</p>
             <div class="hero-actions">
-              <a href="#" class="btn btn-solid">
-                <span>SHOP NOW</span>
-                <span aria-hidden="true">&#8594;</span>
-              </a>
-              <a href="#" class="btn btn-ghost">
-                <span>2024 COLLECTION</span>
-                <span aria-hidden="true">&#8594;</span>
-              </a>
+              <a href="./shop.html" class="btn btn-solid"><span>SHOP NOW</span><span aria-hidden="true">&#8594;</span></a>
+              <a href="./collection.html" class="btn btn-ghost"><span>2024 COLLECTION</span><span aria-hidden="true">&#8594;</span></a>
             </div>
           </div>
 
-          <figure class="hero-visual" aria-hidden="true">
-            <img
-              src="./assets/hero-figure-clean.jpg"
-              alt=""
-              width="470"
-              height="520"
-              fetchpriority="high"
-            />
+          <figure class="hero-visual">
+            <img id="hero-slide-image" src="./assets/hero-slide-1.jpg" alt="Model in DSTRKT hero outfit, frame 1" width="470" height="520" fetchpriority="high" />
           </figure>
 
           <aside class="season-rail" aria-label="Season">
@@ -74,160 +57,96 @@
           </aside>
 
           <div class="carousel-meta" aria-label="Carousel controls">
-            <div class="slide-count">
-              <span>01</span>
-              <i></i>
-              <span>03</span>
-            </div>
-            <button aria-label="Previous slide" type="button">&#8249;</button>
-            <button aria-label="Next slide" type="button">&#8250;</button>
+            <div class="slide-count"><span id="hero-slide-current">01</span><i></i><span id="hero-slide-total">03</span></div>
+            <button id="hero-prev" aria-label="Previous slide" type="button">&#8249;</button>
+            <button id="hero-next" aria-label="Next slide" type="button">&#8250;</button>
           </div>
         </div>
 
         <div class="notice-strip">
           <p class="notice-tag">NOTICE</p>
           <p class="notice-copy">The 2nd delivery for the 2024 Fall collection has arrived.</p>
-          <a class="notice-link" href="#">
-            <span>VIEW MORE</span>
-            <span aria-hidden="true">&#8594;</span>
-          </a>
+          <a class="notice-link" href="./updates.html"><span>VIEW MORE</span><span aria-hidden="true">&#8594;</span></a>
         </div>
       </section>
 
       <section class="best-section">
         <div class="best-intro">
-          <h2>
-            BEST
-            <br />
-            SELLERS
-          </h2>
-          <p>
-            Experience DSTRKT's signature
-            <br />
-            pieces. Loved by the season,
-            <br />
-            chosen for a reason.
-          </p>
-          <a href="#" class="view-all">
-            <span>VIEW ALL</span>
-            <span aria-hidden="true">&#8594;</span>
-          </a>
+          <h2>BEST<br />SELLERS</h2>
+          <p>Experience DSTRKT's signature<br />pieces. Loved by the season,<br />chosen for a reason.</p>
+          <a href="./shop.html" class="view-all"><span>VIEW ALL</span><span aria-hidden="true">&#8594;</span></a>
         </div>
 
         <div class="products" role="list">
-          <article class="product" role="listitem">
-            <div class="card-top"><span>BEST</span></div>
-            <img
-              src="./assets/product-1.jpg"
-              alt="Model wearing tech wind breaker jacket"
-              width="160"
-              height="214"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <p class="brand">DSTRKT</p>
-              <h3>TECH WIND BREAKER JACKET</h3>
-              <p class="color">BLACK</p>
-              <p class="price-row">
-                <span>159,000 KRW</span>
-                <span aria-hidden="true">+</span>
-              </p>
-            </div>
-          </article>
-
-          <article class="product" role="listitem">
-            <div class="card-top"><span>BEST</span></div>
-            <img
-              src="./assets/product-2.jpg"
-              alt="Model wearing heavyweight hoodie"
-              width="160"
-              height="214"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <p class="brand">DSTRKT</p>
-              <h3>HEAVYWEIGHT HOODIE</h3>
-              <p class="color">CHARCOAL</p>
-              <p class="price-row">
-                <span>89,000 KRW</span>
-                <span aria-hidden="true">+</span>
-              </p>
-            </div>
-          </article>
-
-          <article class="product" role="listitem">
-            <div class="card-top"><span>BEST</span></div>
-            <img
-              src="./assets/product-3.jpg"
-              alt="Model wearing oversized graphic t-shirt"
-              width="160"
-              height="214"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <p class="brand">DSTRKT</p>
-              <h3>OVERSIZED GRAPHIC T-SHIRT</h3>
-              <p class="color">BLACK</p>
-              <p class="price-row">
-                <span>45,000 KRW</span>
-                <span aria-hidden="true">+</span>
-              </p>
-            </div>
-          </article>
-
-          <article class="product" role="listitem">
-            <div class="card-top"><span>BEST</span></div>
-            <img
-              src="./assets/product-4.jpg"
-              alt="Model wearing tech cargo pants"
-              width="160"
-              height="214"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <p class="brand">DSTRKT</p>
-              <h3>TECH CARGO PANTS</h3>
-              <p class="color">BLACK</p>
-              <p class="price-row">
-                <span>129,000 KRW</span>
-                <span aria-hidden="true">+</span>
-              </p>
-            </div>
-          </article>
+          <article class="product" role="listitem"><div class="card-top"><span>BEST</span></div><img src="./assets/product-1.jpg" alt="Model wearing tech wind breaker jacket" width="160" height="214" loading="lazy" /><div class="card-info"><p class="brand">DSTRKT</p><h3><a href="./product-tech-wind-breaker.html">TECH WIND BREAKER JACKET</a></h3><p class="color">BLACK</p><p class="price-row"><span>159,000 KRW</span><span aria-hidden="true">+</span></p></div></article>
+          <article class="product" role="listitem"><div class="card-top"><span>BEST</span></div><img src="./assets/product-2.jpg" alt="Model wearing heavyweight hoodie" width="160" height="214" loading="lazy" /><div class="card-info"><p class="brand">DSTRKT</p><h3><a href="./product-heavyweight-hoodie.html">HEAVYWEIGHT HOODIE</a></h3><p class="color">CHARCOAL</p><p class="price-row"><span>89,000 KRW</span><span aria-hidden="true">+</span></p></div></article>
+          <article class="product" role="listitem"><div class="card-top"><span>BEST</span></div><img src="./assets/product-3.jpg" alt="Model wearing oversized graphic t-shirt" width="160" height="214" loading="lazy" /><div class="card-info"><p class="brand">DSTRKT</p><h3><a href="./product-oversized-graphic-tee.html">OVERSIZED GRAPHIC T-SHIRT</a></h3><p class="color">BLACK</p><p class="price-row"><span>45,000 KRW</span><span aria-hidden="true">+</span></p></div></article>
+          <article class="product" role="listitem"><div class="card-top"><span>BEST</span></div><img src="./assets/product-4.jpg" alt="Model wearing tech cargo pants" width="160" height="214" loading="lazy" /><div class="card-info"><p class="brand">DSTRKT</p><h3><a href="./product-tech-cargo-pants.html">TECH CARGO PANTS</a></h3><p class="color">BLACK</p><p class="price-row"><span>129,000 KRW</span><span aria-hidden="true">+</span></p></div></article>
         </div>
       </section>
 
       <section class="brand-band">
         <h2>DSTRKT</h2>
-        <p>
-          WE DON'T FOLLOW TRENDS.
-          <br />
-          WE SET OUR OWN PATH.
-        </p>
+        <p>WE DON'T FOLLOW TRENDS.<br />WE SET OUR OWN PATH.</p>
       </section>
 
       <section class="pillars">
-        <article>
-          <p class="index">01</p>
-          <h3>QUALITY</h3>
-          <p>Premium materials<br />and perfect craftsmanship.</p>
-        </article>
-        <article>
-          <p class="index">02</p>
-          <h3>DESIGN</h3>
-          <p>Thoughtful designs inspired<br />by urban life.</p>
-        </article>
-        <article>
-          <p class="index">03</p>
-          <h3>CULTURE</h3>
-          <p>Street culture as a foundation,<br />creating new value.</p>
-        </article>
-        <article>
-          <p class="index">04</p>
-          <h3>COMMUNITY</h3>
-          <p>DSTRKT is more than a brand.<br />It's a community.</p>
-        </article>
+        <article><p class="index">01</p><h3>QUALITY</h3><p>Premium materials<br />and perfect craftsmanship.</p></article>
+        <article><p class="index">02</p><h3>DESIGN</h3><p>Thoughtful designs inspired<br />by urban life.</p></article>
+        <article><p class="index">03</p><h3>CULTURE</h3><p>Street culture as a foundation,<br />creating new value.</p></article>
+        <article><p class="index">04</p><h3>COMMUNITY</h3><p>DSTRKT is more than a brand.<br />It's a community.</p></article>
       </section>
+
+      <section class="home-cta">
+        <img src="./assets/core-line-shot.jpg" alt="Model wearing DSTRKT heavyweight hoodie against a black field" loading="lazy" />
+        <div>
+          <p class="section-label">READY TO BUILD YOUR FIT?</p>
+          <h2>SHOP THE CORE LINE</h2>
+          <p>Explore refined essentials, engineered outerwear, and elevated basics designed to move with you daily.</p>
+          <div class="hero-actions">
+            <a href="./shop.html" class="btn btn-solid"><span>START SHOPPING</span><span aria-hidden="true">&#8594;</span></a>
+            <a href="./collection.html" class="btn btn-ghost"><span>SEE COLLECTION</span><span aria-hidden="true">&#8594;</span></a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer" aria-label="Footer">
+        <div class="footer-grid">
+          <section>
+            <p class="footer-brand">DSTRKT</p>
+            <p class="footer-copy">Modern streetwear built for city movement. Designed with restraint, crafted for repeat wear.</p>
+          </section>
+          <section>
+            <p class="footer-heading">Shop</p>
+            <a href="./shop.html">All Products</a>
+            <a href="./collection.html">Collection</a>
+            <a href="./lookbook.html">Lookbook</a>
+            <a href="./updates.html">Updates</a>
+          </section>
+          <section>
+            <p class="footer-heading">Support</p>
+            <a href="./account.html">Account</a>
+            <a href="./cart.html">Cart</a>
+            <a href="./locale.html">Region (NG)</a>
+            <a href="./about.html">About DSTRKT</a>
+          </section>
+          <section>
+            <p class="footer-heading">Newsletter</p>
+            <p class="footer-copy">Drop your email for early access and release alerts.</p>
+            <form class="footer-form" action="./updates.html" method="get">
+              <label class="sr-only" for="footer-email">Email</label>
+              <input id="footer-email" type="email" placeholder="you@example.com" />
+              <button type="submit">Join</button>
+            </form>
+          </section>
+        </div>
+        <div class="footer-base">
+          <span>© 2026 DSTRKT</span>
+          <span>Seoul / Lagos</span>
+          <a href="./index.html">Back to Top</a>
+        </div>
+      </footer>
     </main>
-  </body>
+    <script src="./site.js" defer></script>`r`n  </body>
 </html>
+
